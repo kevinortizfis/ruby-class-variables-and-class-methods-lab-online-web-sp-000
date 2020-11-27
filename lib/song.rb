@@ -27,5 +27,10 @@ class Song
     counter = @@genres.uniq
     counter.count
   end
+  
+  def self.artists_count
+    counter = @@artists.uniq
+    counter.count
+  end
 
 end
