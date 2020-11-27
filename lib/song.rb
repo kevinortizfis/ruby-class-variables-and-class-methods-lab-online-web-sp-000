@@ -1,3 +1,4 @@
 class Song
-  attr_accessor: album,artist,name,genre
+  attr_accessor: artist,name,genre
+  
 end
