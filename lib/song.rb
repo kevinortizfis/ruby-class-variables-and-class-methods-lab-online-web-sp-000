@@ -13,4 +13,5 @@ class Song
   def genres.count
     @@genres
   end
+  
 end
