@@ -1,6 +1,7 @@
 class Song
   attr_accessor: artist,name,genre
-  @@count = 0
+  @@albumcount = 0
   def initialize(song)
+    @@count
 
 end
