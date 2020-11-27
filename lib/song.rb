@@ -7,7 +7,7 @@ class Song
     @name = song
     @artist = artist
     @genre = genre
-    @@genre << genre
+    @@genres << genre
   end
   def self.count
     @@count
