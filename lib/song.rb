@@ -3,5 +3,6 @@ class Song
   @@albumcount = 0
   def initialize(song)
     @@albumcount += 1
+    name = song
 
 end
