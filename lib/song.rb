@@ -25,7 +25,7 @@ class Song
 
   def self.genre_count
     counter = @@genres.uniq
-    flip = counter.count
+    counter.count
   end
 
   def self.artists_count
