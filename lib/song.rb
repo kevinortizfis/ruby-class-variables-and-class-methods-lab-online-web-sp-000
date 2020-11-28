@@ -24,11 +24,7 @@ class Song
   end
 
   def self.genre_count
-    genre_count = {}
-    counter = @@genres.uniq
-    flip = counter.count
-    genre_count[counter] << flip
-    genre_count
+    artisthash = Hash.new(0).tap { |h| @@artists.each { |thing| h[thing] += 1 } }
   end
 
   def self.artist_count
