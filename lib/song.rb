@@ -28,6 +28,7 @@ class Song
     counter = @@genres.uniq
     flip = counter.count
     genre_count[flip] << counter
+    genre_count
   end
 
   def self.artists_count
