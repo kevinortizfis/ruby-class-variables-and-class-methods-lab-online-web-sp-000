@@ -25,9 +25,9 @@ class Song
 
   def self.genre_count
     genre_count = {}
-    @counter = @@genres.uniq
+    counter = @@genres.uniq
     flip = counter.count
-    genre_count[@counter] << flip
+    genre_count[counter] << flip
     genre_count
   end
 
