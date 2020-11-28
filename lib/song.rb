@@ -24,11 +24,11 @@ class Song
   end
 
   def self.genre_count
-    genrehash = Hash.new(0).tap { |h| @@genres.each { |thing| h[thing] += 1 } }
+    genrehash = Hash.new(0) { |h| @@genres.each { |thing| h[thing] += 1 } }
   end
 
   def self.artist_count
-    artisthash = Hash.new(0).tap { |h| @@artists.each { |thing| h[thing] += 1 } }
+    artisthash = Hash.new(0) { |h| @@artists.each { |thing| h[thing] += 1 } }
   end
 
 end
