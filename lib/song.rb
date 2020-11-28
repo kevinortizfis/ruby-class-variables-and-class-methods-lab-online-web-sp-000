@@ -33,7 +33,7 @@ class Song
 
   def self.artist_count
     counter = @@artists.uniq
-    counter.count
+    counter.count => @@artists.uniq
 
   end
 
