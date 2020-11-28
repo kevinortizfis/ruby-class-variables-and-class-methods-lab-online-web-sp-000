@@ -27,7 +27,7 @@ class Song
     genre_count = {}
     counter = @@genres.uniq
     flip = counter.count
-    genre_count[flip] << counter
+    genre_count << counter
     genre_count
   end
 
