@@ -32,7 +32,7 @@ class Song
   end
 
   def self.artist_count
-    wf = Hash.new(0).tap { |h| @@artists.uniq.each { |thing| h[thing] += 1 } }
+    artisthash = Hash.new(0).tap { |h| @@artists.uniq.each { |thing| h[thing] += 1 } }
   end
 
 end
